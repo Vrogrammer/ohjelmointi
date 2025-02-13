@@ -1,11 +1,5 @@
-:root {
-  --pagebg: rgb(240, 240, 240);
-  --elementbg: rgb(255, 255, 255);
-  --hoverbg: rgb(215, 215, 255);
-  --shadow: inset rgba(67, 67, 67, 0.923) 0 0 10px;
-}
 html {
-  background-color: var(--pagebg);
+  background-color: rgb(0, 0, 0);
 }
 * {
   font-family: Arial, Helvetica, sans-serif;
@@ -43,8 +37,8 @@ nav ul li {
   padding: 6px;
 }
 main {
-  box-shadow: var(--shadow);
-  background-color: var(--elementbg);
+  box-shadow: rgb(186, 167, 241) 0 0 10px;
+  background-color: rgb(186, 167, 241);
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
@@ -58,12 +52,12 @@ main {
 li a {
   padding: 2px;
   border-radius: 10px;
-  transition: all 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
   text-decoration: none;
 }
 li:hover a {
-  transition: all 0s;
-  box-shadow: var(--shadow);
+  transition: background-color 0s;
+  background-color: rgb(215, 203, 253);
 }
 li:active a {
   opacity: 0.5;
@@ -96,18 +90,15 @@ button {
   border-radius: 3px;
   color: white;
   font-size: 19px;
-  background-color: rgb(135, 135, 135);
+  background-color: rgb(138, 43, 226);
   font-weight: 700;
   padding: 10px 20px;
   margin: 1px;
-  transition: all 0.1s;
+  transition: background-color 0.1s;
 }
 button:hover {
-  color: black;
-  background-color: rgba(177, 177, 177, 0.7);
+  background-color: rgba(138, 43, 226, 0.7);
 }
 button:active {
-  opacity: 0.9;
-  color: white;
-  background-color: rgba(177, 177, 177, 0.812);
+  background-color: rgba(138, 43, 226, 0.4);
 }

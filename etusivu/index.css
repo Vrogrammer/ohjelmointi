@@ -9,6 +9,7 @@ h3 {
   width: 450px;
   border-radius: 10px;
   text-align: center;
+
   justify-content: center;
   gap: 10px;
 }
@@ -17,12 +18,12 @@ h3 {
   transition: background-color 0.2s ease-out;
   text-decoration: none;
   font-weight: bold;
-  background-color: var(--elementbg);
+  background-color: rgb(186, 167, 241);
   border-radius: 10px;
-  box-shadow: var(--shadow);
+  box-shadow: rgb(186, 167, 241) 0 0 10px;
 }
 .navigate a:hover {
-  background-color: var(--hoverbg);
+  background-color: rgb(215, 203, 253);
   transition: background-color 0s;
 }
 ul li {
